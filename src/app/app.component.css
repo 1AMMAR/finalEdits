@@ -1,0 +1,35 @@
+
+  body {
+ 
+    background-color: #130c25 !important; background-image: linear-gradient(to bottom right, rgba(31, 10, 189, 0.79) , rgb(119, 16, 104));
+    user-select: none;
+
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-x: hidden;
+  
+    
+      background-size: 180% 180%;
+      
+    animation: gradient 5s ease-in-out infinite;
+  }
+  
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+  
+  
+  
+  
+  

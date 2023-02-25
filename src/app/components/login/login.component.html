@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      
+      <link rel="stylesheet" href="login.component.css">
+   </head>
+   <body>
+      <div class="wrapper">
+         <div class="title" style="font-size: 20px;">
+            Change your password  
+         </div>
+         <form action="#">
+            <div class="field">
+               <input type="text" required>
+               <label>Email Address</label>
+            </div>
+            <div class="field">
+               <input type="password" required>
+               <label>Old Password</label>
+            </div>
+
+            <div class="field" >
+             <input type="password" required>
+              <label>New Password</label>
+           </div>
+           <div class="field">
+           <input type="password" required>
+            <label>Confirm Password</label>
+         </div>
+            <br>
+                      <div class="field">
+               <input type="submit" value="Save Changes">
+            </div>
+         </form>
+      </div>
+   </body>
+   <div id="reqsDATA">
+    please make sure your password includes :
+    <br>
+    8-32 chars <br>
+    one upper case<br>
+    one small case<br>
+    one special<br>
+    one number
+   </div>
+</html>

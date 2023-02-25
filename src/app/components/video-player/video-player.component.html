@@ -1,0 +1,8 @@
+<h3>{{videoTitle}}</h3>
+<vg-player>
+    <video [vgMedia]="$any(media)" #media id="singleVideo" preload="auto" controls>
+        <source src="{{url}}" type="video/mp4">
+    </video>
+    
+<button class="button" role="button">Like</button>
+</vg-player>

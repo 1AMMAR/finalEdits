@@ -1,0 +1,102 @@
+
+button {
+  background-color: #0dbe39; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 15px;
+  
+}
+
+button:hover
+{
+  transition: 0.5s;
+  z-index: 1;
+  transform: scale(1.05);
+}
+
+.card
+{
+  border: none;
+  width: fit-content;
+  
+}
+.col {
+  
+  align-items: stretch;
+  transform: scale(0.8);
+  transition: 0.5s;
+  box-shadow: 15px 1px 1px rgba(64, 18, 72, 0.615);
+  transition-duration: 0.5s;
+  block-size: 30%;
+  animation: showup 0.9s forwards;
+
+}
+
+@keyframes showup {
+  from {
+    opacity: 0.1;
+    scale: 0.3;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+.col:hover {
+  transform: scale(0.9);
+  transition: 0.8s;
+  box-shadow: 25px 15px 20px rgba(0, 0, 0, 0.204);
+
+
+}
+
+img {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: 0.8s;
+  box-shadow: 25px 15px 20px rgba(0, 0, 0, 0.204);
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: 0.8s;
+}
+
+div {
+  color: white;
+  background: rgba(0, 0, 0, 0);
+  font-family: 'nunito';
+  border-radius: 20px;
+
+}
+
+
+.modelname {
+  text-decoration: none;
+  color: white;
+  text-shadow: 0px 2px black;
+  transition: 0.5s;
+}
+
+
+.modelname:hover {
+  transition: 0.5s;
+  
+  color: rgb(255, 252, 66);
+  text-shadow: 0 0px;
+}
+
+a{
+  text-decoration: none;
+}
